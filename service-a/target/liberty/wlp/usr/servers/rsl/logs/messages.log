@@ -192,3 +192,88 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	... 58 more
 
 [11/1/19, 19:26:45:710 EET] 000000a6 com.ibm.ws.security.mp.jwt.tai.MicroProfileJwtTAI            E CWWKS5522E: The MicroProfile JWT feature cannot perform authentication because a MicroProfile JWT cannot be found in the request.
+[11/1/19, 19:33:43:044 EET] 000003a8 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:8181/
+[11/1/19, 19:33:43:048 EET] 000003a8 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Destroy successful.
+[11/1/19, 19:33:43:079 EET] 000003a8 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application rsl has stopped successfully.
+[11/1/19, 19:33:43:083 EET] 000003a8 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application rsl.
+[11/1/19, 19:33:43:083 EET] 000003a8 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The rsl application is using the loose application definition at the /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/apps/rsl.war.xml location.
+[11/1/19, 19:33:43:093 EET] 000003b2 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:33:43:327 EET] 000003a8 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application rsl was processed and an OpenAPI document was produced.
+[11/1/19, 19:33:43:900 EET] 000003a8 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: rsl.
+[11/1/19, 19:33:43:901 EET] 000003a8 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module rsl has been bound to default_host.
+[11/1/19, 19:33:43:901 EET] 000003a8 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:8181/
+[11/1/19, 19:33:43:901 EET] 000003a8 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application rsl updated in 0.818 seconds.
+[11/1/19, 19:33:43:901 EET] 00000351 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/1/19, 19:33:43:902 EET] 00000351 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/1/19, 19:33:43:912 EET] 00000387 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:34:02:578 EET] 000003e4 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:8181/
+[11/1/19, 19:34:02:586 EET] 000003e4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application rsl has stopped successfully.
+[11/1/19, 19:34:02:588 EET] 000003e4 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application rsl.
+[11/1/19, 19:34:02:588 EET] 000003e4 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The rsl application is using the loose application definition at the /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/apps/rsl.war.xml location.
+[11/1/19, 19:34:02:598 EET] 000003eb com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:34:02:809 EET] 000003e4 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application rsl was processed and an OpenAPI document was produced.
+[11/1/19, 19:34:03:317 EET] 000003e4 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: rsl.
+[11/1/19, 19:34:03:318 EET] 000003e4 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module rsl has been bound to default_host.
+[11/1/19, 19:34:03:318 EET] 000003e4 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:8181/
+[11/1/19, 19:34:03:318 EET] 000003e4 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application rsl updated in 0.730 seconds.
+[11/1/19, 19:34:03:318 EET] 000003c3 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/1/19, 19:34:03:319 EET] 000003c3 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/1/19, 19:34:03:342 EET] 000003d0 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:34:34:072 EET] 0000043d com.ibm.ws.security.mp.jwt.tai.MicroProfileJwtTAI            E CWWKS5522E: The MicroProfile JWT feature cannot perform authentication because a MicroProfile JWT cannot be found in the request.
+[11/1/19, 19:34:34:081 EET] 0000043d .apache.cxf.cxf.core.3.2:1.0.33.cl191020191002-0300(id=175)] I Setting the server's publish address to be /read_learn_share/
+[11/1/19, 19:34:34:088 EET] 0000043d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Initialization successful.
+[11/1/19, 19:36:51:553 EET] 000004ef com.ibm.ws.security.mp.jwt.tai.MicroProfileJwtTAI            E CWWKS5522E: The MicroProfile JWT feature cannot perform authentication because a MicroProfile JWT cannot be found in the request.
+[11/1/19, 19:37:21:585 EET] 00000539 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:8181/
+[11/1/19, 19:37:21:588 EET] 00000539 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Destroy successful.
+[11/1/19, 19:37:21:608 EET] 00000539 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application rsl has stopped successfully.
+[11/1/19, 19:37:21:619 EET] 00000539 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application rsl.
+[11/1/19, 19:37:21:620 EET] 00000539 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The rsl application is using the loose application definition at the /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/apps/rsl.war.xml location.
+[11/1/19, 19:37:21:635 EET] 0000053a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:37:21:857 EET] 00000539 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application rsl was processed and an OpenAPI document was produced.
+[11/1/19, 19:37:22:341 EET] 00000539 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: rsl.
+[11/1/19, 19:37:22:341 EET] 00000539 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module rsl has been bound to default_host.
+[11/1/19, 19:37:22:341 EET] 00000539 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:8181/
+[11/1/19, 19:37:22:342 EET] 00000539 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application rsl updated in 0.722 seconds.
+[11/1/19, 19:37:22:342 EET] 00000505 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/1/19, 19:37:22:342 EET] 00000505 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/1/19, 19:37:22:352 EET] 00000480 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:37:30:235 EET] 0000055d com.ibm.ws.security.mp.jwt.tai.MicroProfileJwtTAI            E CWWKS5522E: The MicroProfile JWT feature cannot perform authentication because a MicroProfile JWT cannot be found in the request.
+[11/1/19, 19:37:30:240 EET] 0000055d .apache.cxf.cxf.core.3.2:1.0.33.cl191020191002-0300(id=175)] I Setting the server's publish address to be /read_learn_share/
+[11/1/19, 19:37:30:243 EET] 0000055d com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Initialization successful.
+[11/1/19, 19:37:38:612 EET] 0000056e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:8181/
+[11/1/19, 19:37:38:613 EET] 0000056e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Destroy successful.
+[11/1/19, 19:37:38:616 EET] 0000056e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application rsl has stopped successfully.
+[11/1/19, 19:37:38:618 EET] 0000056e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application rsl.
+[11/1/19, 19:37:38:618 EET] 0000056e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The rsl application is using the loose application definition at the /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/apps/rsl.war.xml location.
+[11/1/19, 19:37:38:625 EET] 00000567 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:37:38:836 EET] 0000056e com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application rsl was processed and an OpenAPI document was produced.
+[11/1/19, 19:37:39:289 EET] 0000056e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: rsl.
+[11/1/19, 19:37:39:289 EET] 0000056e com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module rsl has been bound to default_host.
+[11/1/19, 19:37:39:289 EET] 0000056e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:8181/
+[11/1/19, 19:37:39:289 EET] 0000056e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application rsl updated in 0.671 seconds.
+[11/1/19, 19:37:39:289 EET] 0000053a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/1/19, 19:37:39:290 EET] 0000053a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/1/19, 19:37:39:302 EET] 0000056f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/1/19, 19:37:40:422 EET] 00000568 com.ibm.ws.security.mp.jwt.tai.MicroProfileJwtTAI            E CWWKS5522E: The MicroProfile JWT feature cannot perform authentication because a MicroProfile JWT cannot be found in the request.
+[11/1/19, 19:37:40:430 EET] 00000568 .apache.cxf.cxf.core.3.2:1.0.33.cl191020191002-0300(id=175)] I Setting the server's publish address to be /read_learn_share/
+[11/1/19, 19:37:40:434 EET] 00000568 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Initialization successful.
+[11/2/19, 0:05:52:669 EET] 00008bb8 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[11/2/19, 0:05:52:692 EET] 00008bb8 com.ibm.ws.config.xml.internal.ConfigUpdater                 E CWWKG0075E: The value ${default.http.port} is not valid for attribute httpPort of configuration element httpEndpoint. The validation message was: Value "${default.http.port}" is not a number..
+[11/2/19, 0:05:52:693 EET] 00008bb8 com.ibm.ws.config.xml.internal.ConfigUpdater                 W CWWKG0076W: The previous configuration for httpEndpoint with id defaultHttpEndpoint is still in use.
+[11/2/19, 0:05:52:701 EET] 00008b3f com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: The server configuration was successfully updated in 0.035 seconds.
+[11/2/19, 0:06:36:230 EET] 00008c3b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:8181/
+[11/2/19, 0:06:36:233 EET] 00008c3b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rsl] [/] [com.read_share_learn.rsl.RslRestApplication]: Destroy successful.
+[11/2/19, 0:06:36:247 EET] 00008c3b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application rsl has stopped successfully.
+[11/2/19, 0:06:36:252 EET] 00008c3b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application rsl.
+[11/2/19, 0:06:36:252 EET] 00008c3b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The rsl application is using the loose application definition at the /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/apps/rsl.war.xml location.
+[11/2/19, 0:06:36:266 EET] 00008c3f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.
+[11/2/19, 0:06:36:428 EET] 00008c3e com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[11/2/19, 0:06:36:430 EET] 00008c3e com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[11/2/19, 0:06:36:445 EET] 00008c3b com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: The application rsl was processed and an OpenAPI document was produced.
+[11/2/19, 0:06:36:884 EET] 00008c3b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: rsl.
+[11/2/19, 0:06:36:884 EET] 00008c3b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module rsl has been bound to default_host.
+[11/2/19, 0:06:36:884 EET] 00008c3b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:8181/
+[11/2/19, 0:06:36:884 EET] 00008c3b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application rsl updated in 0.632 seconds.
+[11/2/19, 0:06:36:884 EET] 00008c43 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[11/2/19, 0:06:36:885 EET] 00008c43 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[11/2/19, 0:06:36:894 EET] 00008c21 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/mohab/microprofile/read-learn-share/rsl/service-a/target/liberty/wlp/usr/servers/rsl/logs/state/plugin-cfg.xml.

@@ -13,6 +13,9 @@
     <openliberty.version>[19.0.0.9,)</openliberty.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <liberty.var.default.http.port>9080</liberty.var.default.http.port>
+    <liberty.var.default.https.port>9443</liberty.var.default.https.port>
+    <liberty.var.app.context.root>LibertyProject</liberty.var.app.context.root>
   </properties>
   <dependencies>
     <dependency>
